@@ -1,30 +1,34 @@
-Power Outage Prediction
-Overview
-This repository contains a machine learning model designed to predict power outages and their correlation with rare weather events. The project aims to analyze how different extreme weather conditions affect power infrastructure and develop a robust predictive system to anticipate outages.
-Problem Statement
-The goal is to build a model that can accurately predict power outages based on weather data, with a specific focus on rare or extreme weather events. The project examines the relationship between various meteorological phenomena and subsequent power disruptions.
-Datasets
-The analysis primarily utilizes two datasets:
+# Power Outage Prediction
 
-Storm Event Dataset - Contains records of various weather events
-Power Outage Dataset - Records of power disruptions and their details
+## Overview
 
-Additional meteorological data sources:
+This repository contains a machine learning model designed to predict power outages and analyze their correlation with rare weather events. The project aims to evaluate how different extreme weather conditions affect power infrastructure and develop a robust predictive system to anticipate outages.
 
-NOAA public datasets
-ERA5 comprehensive weather dataset (available from Copernicus Climate Data Store)
-WeatherBench2 resources
+## Problem Statement
 
-Key Insights
+The goal is to build a model that accurately predicts power outages based on weather data, with a specific focus on rare or extreme weather events. The project investigates the relationship between various meteorological phenomena and subsequent power disruptions.
 
-Not all weather events have equal impact on power infrastructure
-Multiple weather events often occur together, creating compound effects
-Power outages typically exhibit a time lag following weather events
-Initial analysis shows strong regional patterns (Texas-specific data is being evaluated for broader applicability)
+## Datasets
 
-Methodology
+### Primary Datasets
+- **Storm Event Dataset:** Contains records of various weather events.
+- **Power Outage Dataset:** Records details of power disruptions.
 
-Classification approach with potential for multi-class analysis
-Random Forest as baseline model
-Evaluation on unseen data to ensure robust performance
-Exploration of clustering approaches to identify distinct outage patterns
+### Additional Meteorological Data Sources
+- NOAA public datasets
+- ERA5 comprehensive weather dataset (available from the Copernicus Climate Data Store)
+- WeatherBench2 resources
+
+## Key Insights
+
+- **Impact Variability:** Not all weather events affect power infrastructure equally.
+- **Compound Effects:** Multiple weather events can occur simultaneously, creating compound impacts.
+- **Time Lag:** Power outages typically occur after a delay following weather events.
+- **Regional Patterns:** Initial analysis shows strong regional patterns, with Texas-specific data under evaluation for broader applicability.
+
+## Methodology
+
+- **Approach:** Classification with potential for multi-class analysis.
+- **Baseline Model:** Random Forest.
+- **Evaluation:** Testing on unseen data to ensure robust performance.
+- **Exploratory Analysis:** Investigation of clustering techniques to identify distinct outage patterns.
