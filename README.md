@@ -1,6 +1,5 @@
 # Power Outage Prediction
-<!--
-Overview
+<!-- Overview
 This repository contains a machine learning model designed to predict power outages and their correlation with rare weather events. The project aims to analyze how different extreme weather conditions affect power infrastructure and develop a robust predictive system to anticipate outages.
 
 Problem Statement
