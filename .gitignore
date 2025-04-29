@@ -2,4 +2,7 @@
 data/*.csv
 data/*.parquet
 data/*.pkl
-
+*.csv
+data/NOAA_StormEvents/*.csv
+data/eaglei_data/*.csv
+*.zip
