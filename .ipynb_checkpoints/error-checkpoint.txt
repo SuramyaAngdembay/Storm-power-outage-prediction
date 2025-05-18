@@ -1,0 +1,7 @@
+/homes/01/srangdembay/power_outage_prediction/merge.py:26: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value '['01001' '01001' '01001' ... '99153' '99153' '99153']' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  df_noaa.loc[valid_fips_mask, 'full_fips_code'] = state_fips_padded[valid_fips_mask] + cz_fips_padded[valid_fips_mask]
+Traceback (most recent call last):
+  File "/homes/01/srangdembay/power_outage_prediction/merge.py", line 142, in <module>
+    merged_df.to_csv("noaa_eaglei_merged.csv",index=False)
+    ^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'to_csv'

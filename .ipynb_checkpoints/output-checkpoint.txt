@@ -1,0 +1,18 @@
+
+Starting Step 4: Merging NOAA and Eaglei Data...
+Creating 5-digit FIPS code in NOAA data...
+  'full_fips_code' created.
+  Example NOAA full_fips_code: 01001
+  Example Eaglei fips_code: 1037
+Prepared Eaglei subset with 191133068 rows.
+Sorting DataFrames (this might take time)...
+DataFrames sorted.
+Merge tolerance set to: 0 days 06:00:00
+datetime64[ns, UTC]
+object
+datetime64[ns, UTC]
+object
+Performing merge_asof (this is memory intensive and may take significant time)...
+An unexpected error occurred during merge_asof: Merge keys contain null values on left side
+
+Step 4 (Merge) FAILED due to errors.
